@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="need.css" rel="stylesheet" type="text/css">
+    <title>companies Need</title>
+</head>
+<body>
+    <div class="form">
+<fieldset class="field">
+    <legend>companies need form</legend>
+    <form class="new" action="result.html" method="GET">
+        <label for="name">companies name</label>
+        <input type="text" name="companies name" id="name" required><br>
+        <label for="tel">company phone number</label>
+        <input type="tel" name="company phone number" id="tel" required><br>
+        <label for="phone">company director phone number</label>
+        <input type="tel" name="director phone" id="phone" required><br>
+        <label for="email">your company email</label>
+        <input type="email" name="email" id="email" required><br>
+        <label >in which filed that yuor companies need employe</label>
+        <label for="fild">architectur</label>
+        <input type="radio"  id="fil"value="architectur">
+        <label for="field">cotm</label>
+        <input type="radio" id="field" value="cotem" ><br>
+        <label>select the gread your employe need to have</label>
+            <select required>
+                <option value="4.0">4.0</option>
+                <option value="3.9-4.0">(3.9-4.0)</option>
+                <option value="3.9">3.9</option>
+                <option value="3.8-3.9">(3.8-3.9)</option>
+                <option value="3.8">3.8</option>
+                <option value="3.7-3.8">(3.7-3.8)</option>
+                <option value="3.8">3.8</option>
+                <option value="3.6-3.7">(3.6-3.7)</option>
+                <option value="under 3.6">under 3.6</option>
+            </select><br>
+            <div class="gender">
+            <label>the gender your employe need to be</label><br>
+            <label for="ml">male</label>
+            <input type="radio" name="gender" value="male" id="ml">
+           <label for="fm">femal</label>
+           <input type="radio" name="gender" value="femal" id="fm">
+           <label for="bo">both</label><br>
+           <input type="radio" name="gender" value="both" id="bo">
+        </div>
+           <label for="am">amount</label>
+           <input type="number" id="am" name="number" min="1" required>
+           <label for="exp"> work experiance(in number)</label>
+           <input type="number" name="experiance" id="exp" min="0" required>
+           
+            <label for="cm">comment</label>
+            <textarea name="comment" placeholder="write something " id="cm"></textarea><br>
+            <button type="submit" id="submit">submit</button>
+            <button type="reset" id="reset">reset</button>
+
+
+    </form>
+
+
+
+
+
+
+</fieldset>
+</div>
+<div class="summery"> <p> Afther maching your need whith studentes status
+    we will emedatly the students file and cv to yuor companies email
+</p>
+</div>
+<h3>tanke you for visiting our website</h3>
+    
+</body>
+</html>

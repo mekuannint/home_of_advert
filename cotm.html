@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="architectur.css" type="text/css">
+    <title>cotm student filling form</title>
+</head>
+<body>
+    <fieldset class="submmit-form">
+        <legend>Basicinformation For COTM student</legend>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+        <div class="main">
+            <label for="first-name">first name</label>
+            <input type="text" name="first-name" id="first-name" required><br>
+            <label for="last-name">last name</label>
+            <input type="text" name="last-name" id="last-name" required><br>
+            <label for="phone-number">phone number</label>
+            <input type="tel" name="phone-number" id="phone-number" required ><br>
+            <label for="email">email</label>
+            <input type="email"name="email" id="email" required><br>
+            <label for="birth-day">birth day</label>
+            <input type="date" name="birth-day" id="birth-day"><br>
+            <label>gread</label>
+            <select>
+                <option value="4.0">4.0</option>
+                <option value="3.9-4.0">(3.9-4.0)</option>
+                <option value="3.9">3.9</option>
+                <option value="3.8-3.9">(3.8-3.9)</option>
+                <option value="3.8">3.8</option>
+                <option value="3.7-3.8">(3.7-3.8)</option>
+                <option value="3.8">3.8</option>
+                <option value="3.6-3.7">(3.6-3.7)</option>
+                <option value="under 3.6">under 3.6</option>
+            </select><br>
+            <label>comment</label>
+            <textarea name="comment" placeholder="write something "></textarea><br>
+            <label>gender</label>
+            <label><input type="radio" name="gender" value="male" id="gender">male</label>
+           <label><input type="radio" name="gender" value="femal" id="gender">femal</label><br>
+           <label>upload your cv and your educational data</label>
+           <input type="file" name="file"><br>
+        </div><br>
+        <button type="submit" id="submit">submit</button>
+        <button type="reset" id="reset">reset</button>
+
+    </form>
+
+    </fieldset>
+    <div class="summery"><p> Afther maching your educational status and the companies need
+        we will emdatly send your cv and educational files to the companies
+    </p>
+    <p>When a particular campane wantes to meet you we will notify 
+        you by your email
+    </p><br>
+</div>
+<h3>tanke you for visiting our website</h3>
+</body>
+</html>

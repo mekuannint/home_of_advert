@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+legend{
+    color: white;
+}
+.field{
+    width: 800px;
+    margin:  auto;
+    padding: 10px 0px 10px 0px;
+    border: 2px solid;
+    background-color:rgb(0,0,0,0.4);
+    border-radius: 15px 15px 0px 0px ;
+    display: block;
+}
+.form{
+    background-color: rgba(206, 194, 194, 0.5);
+    width: 500px;
+    margin: auto;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: rgb(205, 221, 221);
+    color:rgb(27,166,247);
+    width: 100%;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family:serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+legend{
+    color:darkblue;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: initial;
+    font-family: monospace;
+    background-color: lightblue;
+}
+
+label{
+    color: rgb(246, 245, 250);
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+}
+input {
+    width: 100%;
+}
+#ml,#fm,#bo{
+    width:40px;
+}
+.summery{
+    font-size: 18px;
+    background-color:rgba(225,225,225,0.6 );
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+#field{
+    text-align:left;
+    width: auto;
+}
+#fil{
+    text-align:left;
+    width: auto;
+    
+}
